@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300;700&family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300;700&family=Lato:wght@300&family=Roboto+Mono:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Dongle:wght@300;700&family=Lato:wght@300&family=Roboto+Mono:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Dongle:wght@300;700&family=Lato:wght@300&family=Roboto+Mono:wght@100&family=Source+Serif+4&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Dongle:wght@300;700&family=Lato:wght@300&family=Roboto&family=Roboto+Mono:wght@100&family=Source+Serif+4&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Dongle:wght@300;700&family=Lato:wght@300&family=Montserrat:wght@200&family=Roboto&family=Roboto+Mono:wght@100&family=Source+Serif+4&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Dongle:wght@300;700&family=Lato:wght@300&family=Montserrat:wght@200&family=Roboto+Mono:wght@100&family=Roboto:wght@300;400&family=Source+Serif+4&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Dongle:wght@300;700&family=Lato:wght@300&family=Montserrat:wght@200&family=Roboto&family=Roboto+Mono:wght@100&family=Source+Sans+Pro:wght@200&family=Source+Serif+4&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Dongle:wght@300;700&family=Lato:wght@300&family=Montserrat:wght@200&family=Murecho:wght@700&family=Roboto&family=Roboto+Mono:wght@100&family=Source+Sans+Pro:wght@200&family=Source+Serif+4&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(0, 0, 0);
+    font-family: 'Lato', sans-serif;
+}
+
+nav {
+    display: flex;
+    overflow: hidden;
+    position: sticky;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin: -103px;
+    padding: 0 162px;
+}
+
+.logo img {
+    width: 70px;
+    padding: 0 238px;
+    margin: -95px;
+}
+
+nav ul {
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 20px;
+    background-position: center center;
+    margin: -5px;
+}
+
+nav ul li {
+    padding: 0 51px;
+    list-style-type: none;
+}
+
+nav ul li a {
+    color: rgb(250, 248, 248);
+    text-decoration: none;
+    margin: 0 -234px;
+    padding: 0px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search img {
+    height: 17px;
+    width: 17px;
+    margin: 0 -201px;
+}
+
+.container {
+    height: 710px;
+    background-color: white;
+}
+
+.text {
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 22px;
+    font-weight: bold;
+    background-color: rgb(231, 212, 215);
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 52px;
+    color: black;
+}
+
+h5 {
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 32px;
+    color: black;
+}
+
+.link {
+    text-align: center;
+}
+
+.link a {
+    text-decoration: none;
+    font-size: 24px;
+    color: rgb(138, 138, 197);
+}
+
+.iphone {
+    width: 400px;
+    padding: 0 460px;
+    margin: 0 13px;
+}
+
+.iphone img {
+    margin: 0 -35px;
+    height: 500px;
+    width: 750px;
+}
+
+.container1 {
+    background-color: #011b33;
+    height: 651px;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Source Serif 4', sans-serif;
+    font-size: 72px;
+    color: white;
+}
+
+h4 {
+    text-align: center;
+    font-family: 'Source Serif 4', sans-serif;
+    font-size: 54px;
+    color: white;
+}
+
+.iphone2 {
+    width: 400px;
+}
+
+.iphone2 img {
+    padding: 0 400px;
+    height: 450px;
+}
+
+.link2 {
+    text-align: center;
+}
+
+.link2 a {
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.container2 {
+    height: 600px;
+    text-align: center;
+}
+
+h8 {
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Murecho', sans-serif;
+    color: black;
+}
+
+footer {
+    background-color: #f5f5f7;
+    color: black;
+    height: 20vh;
+}
+
+p {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    margin: 158px;
+}
